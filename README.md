@@ -1,2 +1,0 @@
-# aishafarooque
-Initial Commit
