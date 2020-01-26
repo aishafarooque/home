@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Aisha Farooque</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		ul#menu li {
+			display:inline;
+		}
+
+		a:visited {
+			color: black;
+		}
+
+		#grid {
+			display: grid;
+			grid-template-rows: repeat(3, 1fr);
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 10px;
+			align-content: center;
+		}
+		#grid > div {
+			/*background-color: hotpink;*/
+			/*background: #aeb584;*/
+			background: white;
+			color: black;
+			/*font-size: 4vw;*/
+			font-size: 19px;
+			padding: 10px;
+			margin-left: 20px;
+			align-content: center;
+			border-style: solid;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<h1 style="text-align: center">Projects</h1>
+	</div>
+
+	<div class="subheader"> 
+		<!-- Insert introduction here -->
+		<!-- <p>This is the sub header</p> -->
+		
+		<p align="center"> 
+			<a href="index.html" style="text-decoration: none"> About &ensp; </a>
+			<a href="resume.html" style="text-decoration: none"> Resumé &ensp; </a>
+			<a href="projects.html" style="text-decoration: none"> Projects &ensp; </a>
+			<a href="courses.html" style="text-decoration: none"> Courses &ensp; </a>
+			<a href="contact.html" style="text-decoration: none"> Contact Me </a>
+		</p>
+	</div>
+
+	<div class="banner">
+		<div class="projects">
+		</div>
+	</div>
+
+	<div id="grid">
+		 <div> 
+			<!-- <img src="images/sql.jpg" width="300px" height="300px" align="center"> -->
+			<h3 align="center">Basic Furniture Database</h3>
+			<h4> This project is intended to take the information from an ERD model and store into a SQL database. Project2.sql contains relations, tables and views. It was created in the Oracle DBMS database. Project2.sql also contains the commented SQL commands along with SQL queries demanded by the client.  </h4>
+
+			<a href="https://github.com/aishafarooque/COSC3380-Databases/blob/master/Project2.sql"> Source code </a> <br> <br>
+			<span class="label sql">SQL</span>
+		 </div>
+
+
+		 <div>
+			<h3 align="center">Javascript and SQL.</h3>
+			<h4> Use of SQL to make stored procedures, triggers and a JSP webpage with DBMS backend.  </h4>
+			<br> <br> <br> <br> <br>
+			<a href="https://github.com/aishafarooque/COSC3380-Databases/tree/master/Project%203%20-%20Javascript%20and%20SQL"> Source code </a> <br> <br>
+			<span class="label javascript">JavaScript</span>
+			<span class="label sql">SQL</span>
+		 </div>
+	</div>
+</body>
+</html>

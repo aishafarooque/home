@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Aisha Farooque</title>	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		.collapsible {
+  /*background-color: #777;*/
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<h1 style="text-align: center"> <a href="index.html" style="text-decoration: none"> Hello, I'm Aisha! </a> </h1>
+	</div>
+
+	<div class="subheader"> 
+		<!-- Insert introduction here -->
+		<!-- <p>This is the sub header</p> -->
+		
+		<p align="center"> 
+		<a href="index.html" style="text-decoration: none"> About &ensp; </a>
+		<a href="resume.html" style="text-decoration: none"> Resumé &ensp; </a>
+		<a href="projects.html" style="text-decoration: none"> Projects &ensp; </a>
+		<a href="courses.html" style="text-decoration: none"> Courses &ensp; </a>
+		<a href="contact.html" style="text-decoration: none"> Contact Me </a>
+	</p>
+	</div>
+
+	<p>&ensp; Here are the courses I have taken at the University of Houston: </p>
+
+	<button type="button" class="collapsible">COSC4353 - Software Design</button>
+<div class="content">
+  <p>Learned about software design tradeoffs, and to learn techniques, practices, and principles to develop lightweight and pragmatic design.</p>
+</div>
+
+
+
+<button type="button" class="collapsible">COSC3380 - Databases</button>
+<div class="content">
+  <p>Learned about: <br>
+  	1. the foundations of database systems; <br>
+  	2. application development;<br>
+  	3. storage and indexing;<br>
+  	4. query evaluation;<br>
+  	5. transaction management;<br>
+	6. database design and tuning;<br>
+	7. database security.</p>
+</div>
+
+
+
+<button type="button" class="collapsible">COSC3360 - Operating Systems</button>
+<div class="content">
+	  <p>Learned about understanding the fundamental aspects of operating system operation; learning how to create and control processes in a UNIX environment, how to establish communication channels between processes, and how to synchronize processes and threads. 
+</p>
+</div>
+
+
+<button type="button" class="collapsible">COSC3320 - Algorithms and Data Structures</button>
+<div class="content">
+	  <p>Learned about data structures and algorithms for manipulating them. <br>
+	  Algorithm analysis and design, heuristics; advanced tree structures; advanced hashing techniques; sorting and searching; graphs, sets. NPCompleteness, Time and Space complexities.</p>
+</div>
+
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</body>
+</html>
