@@ -1,0 +1,136 @@
+body {
+	font-family: Inconsolata;
+	margin: 0;
+	background: white;
+}
+
+.header {
+	/*padding: 0px;*/
+	text-align: left;
+	/*background: #8d93ba;*/
+	color: black;
+	font-size: 30px;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.subheader {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 80px;
+	padding-right: 30px;
+
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	display: inline;
+	 /*display: inline-block;
+	 align-items: center;
+	 justify-content: center;*/
+}
+
+.banner {
+	text-align: center;
+	font-size: 35px;
+
+}
+.resume {
+}
+
+
+.projects {
+	background-color: #ffdbdc;
+
+}
+
+img.align {
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p.bold {
+	font-weight: 900;
+}
+
+p.about {
+	padding:45px;
+	margin: 45px;
+	line-height: 1.6;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul#horizontal-list li {
+	display: inline;
+}
+
+
+/*labels*/
+
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+  font-size: 15px;
+}
+.sql {background-color: #4CAF50; /*Green*/}
+.javascript {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */ 
+.other {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+
+/*Dropdown Paragraph*/
+/*
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}*/
