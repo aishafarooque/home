@@ -105,32 +105,6 @@ ul#horizontal-list li {
 }
 .sql {background-color: #4CAF50; /*Green*/}
 .javascript {background-color: #2196F3;} /* Blue */
-.warning {background-color: #ff9800;} /* Orange */
-.danger {background-color: #f44336;} /* Red */ 
-.other {background-color: #e7e7e7; color: black;} /* Gray */ 
-
-
-/*Dropdown Paragraph*/
-/*
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}*/
+.cpp {background-color: #ff9800;} /* Orange */
+.hmmm {background-color: #f44336;} /* Red */ 
+.c-only {background-color: #8F00FF; color: white;} /* Gray */ 
