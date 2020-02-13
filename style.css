@@ -8,12 +8,22 @@ body {
 	/*padding: 0px;*/
 	text-align: left;
 	/*background: #8d93ba;*/
-	color: black;
+	color: #d22d6f;
 	font-size: 30px;
-	margin-top: 150px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
+}
+
+.bckgrnd-img {
+  background-image: url("images/background.jpg");
+  background-color: #cccccc;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .content {
@@ -51,7 +61,7 @@ body {
 
 img.align {
 	float: left;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 	padding-right: 20px;
 }
 
@@ -60,8 +70,8 @@ p.bold {
 }
 
 p.about {
-	padding:45px;
-	margin: 45px;
+/*	padding:45px;
+	margin: 45px;*/
 	line-height: 1.6;
 }
 
@@ -78,6 +88,11 @@ p.about {
 	padding: 20px;
 	font-size: 30px;
 	text-align: center;
+}
+
+.source-code-container {
+	margin-top: 50px;
+	padding-bottom: 5px;
 }
 
 .table {
@@ -110,3 +125,14 @@ ul#horizontal-list li {
 .c-only {background-color: #8F00FF; color: white;} /* Gray */ 
 .python {background-color: #5AB190; color: white;} /* Light Green */ 
 .java {background-color: #B49FDC; color: black;} /* Gray */ 
+
+a {
+  color:blue; background:white;
+  -o-transition:color .2s ease-out, background 1s ease-in;
+  -ms-transition:color .2s ease-out, background 1s ease-in;
+  -moz-transition:color .2s ease-out, background 1s ease-in;
+  -webkit-transition:color .2s ease-out, background 1s ease-in;
+  /* ...and now override with proper CSS property */
+  transition:color .2s ease-out, background 1s ease-in;
+}
+a:hover { color:red; }
