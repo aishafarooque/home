@@ -126,6 +126,7 @@ ul#horizontal-list li {
 .c-only {background-color: #8F00FF; color: white;} /* Gray */ 
 .python {background-color: #5AB190; color: white;} /* Light Green */ 
 .java {background-color: #B49FDC; color: black;} /* Gray */ 
+.javaServerPages {background-color: #e92efb; color: white;}
 
 a {
   color:blue; background:white;
