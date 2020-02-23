@@ -22,7 +22,7 @@ body {
   height: 250px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto(default);
   position: relative;
 }
 
@@ -40,9 +40,6 @@ body {
 	color: black;
 	font-size: 15px;
 	display: inline;
-	 /*display: inline-block;
-	 align-items: center;
-	 justify-content: center;*/
 }
 
 .banner {
@@ -53,6 +50,11 @@ body {
 .resume {
 }
 
+.about {
+	padding: 20px;
+	position: static;
+	min-width: 20px;
+}
 
 .projects {
 	background-color: #ffdbdc;
@@ -61,8 +63,7 @@ body {
 
 img.align {
 	float: left;
-	/*padding-left: 20px;*/
-	padding-right: 20px;
+	padding-right: 30px;
 }
 
 p.bold {
